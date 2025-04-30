@@ -11,7 +11,7 @@ This directory contains scripts for mirroring and archiving the [ECHO Downloads]
 This directory contains scripts to download CSV files and scrape the matching schemas from (the EPA site)[https://echo.epa.gov/tools/data-downloads]. The system is containerized using Docker for portability and reproducibility.
 
 ### 3. data-storer-dev ([Documentation](data-storer-dev/README.md))
-This directory contains scripts for ingesting the scraped data (e.g CSV and JSON) from the data-scraper tool into the Delta Lake docker container based on the Delta Lake Quickstart Docker using PySpark. While this tool was created for the development environment, it can be deployed as a local Delta Lake system so analysts using the ECHO_modules_delta can directly access the ingested ECHO tables in the local Delta Lake system
+This directory contains scripts for ingesting the scraped data (e.g CSV and JSON) from the data-scraper tool into the Delta Lake docker container based on the Delta Lake Quickstart Docker using PySpark. While this tool was created for the development environment, it can be deployed as a local Delta Lake system so analysts using the ECHO_modules_delta can directly access the ingested ECHO tables in the local Delta Lake system.
 
 ### 4. data-storer-production ([Documentation](data-storer-production/README.md))
 This directory contains scripts for ingesting the scraped data (e.g CSV and JSON) from into an on-premise Delta Lake system using PySpark for the production environment. The on-premise Delta Lake deployment is used for the ECHO API service.

@@ -1,6 +1,6 @@
 # Data Storer Development
 
-This directory contains scripts for storing the scraped data (e.g CSV and JSON) from ECHO into delta lake using pyspark. 
+This directory contains scripts for ingesting the scraped data (e.g CSV and JSON) from the data-scraper tool into the Delta Lake docker container based on the Delta Lake Quickstart Docker using PySpark.
 
 
 ## How to Run:
@@ -28,13 +28,15 @@ You can automate running this container at a scheduled time using a cron job.
     0 8 * * 1 docker compose restart storer
     ```
 
+## Adding a New File
+To ingest new CSV files into Delta Lake:
+1. Copy your desired CSV file into the ***updated-datasets** folder. This directory is located under the `STORAGE_HOST_PATH`configured in your Docker Compose file.
+2. Add or update the schema.
+    - If the CSV has a new schema or format, ensure that a corresponding JSON schema file exists.
+    - Follow the instructions in the [json/README.md](../json/README.md) to define the schema and link it correctly to the CSV file.
+3. Ingest the data.
 
-####  Logs
-Script progress and errors are logged in the logs/ folder, with each run creating a new log file with timestamp of script start as the name.
-
-#### Want to add more files?
-You can add csv files to delta lake by doing the following:
-1. Add the csv file of choice in the **updated-datasets**. This folder is found under the **STORAGE_MOUNT_PATH**
-2. Add a schema file in **{JSON_DIR_MOUNT_PATH}/schemas** corresponding to the header of the csv file of choice. You can follow a template of a schema file under *json/schemas* of this repository.
-3. Add the csv and schema pairing in the *spark_csv_mapping.json*. This may be found in the **JSON_DIR_MOUNT_PATH**.
-4. Run the script. 
+## License & Copyright
+Copyright (C) Environmental Data and Governance Initiative (EDGI) This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, version 3.0.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+See the [LICENSE](../LICENSE) file for details.

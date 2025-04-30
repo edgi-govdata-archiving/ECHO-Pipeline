@@ -1,5 +1,5 @@
 # Delta Lake Deployment for Production
-This delta lake deployment is for users who want to install spark locally without using Docker. This has the same functionalities as data-storer-dev without the use of Docker.
+This directory contains scripts for ingesting the scraped data (e.g CSV and JSON) from into an on-premise Delta Lake system using PySpark for the production environment. 
 
 ## Prerequisites
 - Python >3.10
@@ -7,7 +7,7 @@ This delta lake deployment is for users who want to install spark locally withou
 - Ubuntu System
 - An account with admin or sudo privileges
 
-## How to run the application:
+## How to Use:
 Clone this repository.
 
 ### Installing Spark
@@ -27,20 +27,13 @@ source venv/bin/activate
 ```
 You can now run the delta lake application by simply running the following.
 ```
-python savetolake.py
+spark-submit --packages io.delta:delta-spark_2.12:3.3.0 --conf spark.driver.extraJavaOptions="-Divy.cache.dir=/tmp -Divy.home=/tmp" --conf "spark.sql.extensions=io.delta.sql.DeltaSparkSessionExtension" --conf "spark.sql.catalog.spark_catalog=org.apache.spark.sql.delta.catalog.DeltaCatalog" savetolake.py
+
 ```
 
-## Features
-This directory has three scripts that handle data ingestion:
-1. savetolake.py
+If you are using a different Spark version, refer to this [site](https://docs.delta.io/latest/releases.html) to determine the compatible Delta Lake version.
 
-    `savetolake` is the main script that handles ingesting CSV data into Delta Tables and creating materialized views that can later be used for data analysis.
-
-2. mview_functions.py
-
-    `mview_functions` has functions that create materialized views of the CSV data that are ingested. It uses `spark_materialized_views.json` to determine materialized views to make.
-
-3. EXP_PGM.py
-
-    `EXP_PGM` creates a lookup table for the ECHO data.
-    
+## License & Copyright
+Copyright (C) Environmental Data and Governance Initiative (EDGI) This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, version 3.0.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+See the [LICENSE](../LICENSE) file for details.

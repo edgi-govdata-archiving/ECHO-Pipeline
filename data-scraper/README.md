@@ -1,7 +1,5 @@
 # Data Scraper Documentation
-
-## Overview
-This directory contains scripts to download CSV datasets and scrape their matching schemas from the EPA's ECHO Downloads site.
+This directory contains scripts to download CSV files and scrape the matching schemas from (the EPA site)[https://echo.epa.gov/tools/data-downloads].
 
 ## Directory Structure
     Dockerfile    # Docker image definition
@@ -40,7 +38,7 @@ This directory contains scripts to download CSV datasets and scrape their matchi
         docker compose up -d scraper
     ```
 
-4. After verifying the containers are running, access the storer container's shell using the following command:
+4. After verifying the containers are running, access the container's shell using the following command:
     ```bash
         docker compose -f dev-compose.yaml exec scraper bash
     ```
@@ -58,3 +56,7 @@ You can automate running this container at a scheduled time using a cron job.
     0 8 * * 1 docker compose restart scraper
     ```
 
+## License & Copyright
+Copyright (C) Environmental Data and Governance Initiative (EDGI) This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, version 3.0.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+See the [LICENSE](../LICENSE) file for details.

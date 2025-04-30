@@ -9,6 +9,11 @@ Currently, this server is designed for users who want to access ECHO data via an
 - Supports reading and querying large datasets through HTTP endpoints
 - **SQLite caching layer** to reduce redundant data operations
 
+## Prerequisities
+1. Python >=3.10
+2. A GitHub account
+
+Note: If you are running Python version lower than 3.10, you may want to consider Docker.
 
 ## Endpoints Overview
 | Method | Endpoint         | Description                     |
@@ -36,22 +41,16 @@ Query data from a specified table.
 
     - echo_type (string)
 
-Example
+**Example**
 ```
 GET /echo/ECHO_EXPORTER?sql=SELECT REGISTRY_ID FROM ECHO_EXPORTER LIMIT 1
 ```
 
-Response
+**Response**
 
 Returns a JSON data.
 
-#### Prerequisities
-1. Python >=3.10
-2. A GitHub account
-
-Note: If you are running Python version lower than 3.10, you may want to consider Docker.
-
-#### How to Run:
+## How to Use
 
 1. Create a python virtual environment
     ```bash
@@ -74,23 +73,21 @@ Note: If you are running Python version lower than 3.10, you may want to conside
     pip install -r requirements.txt
     ```
 
-4. Run the api server
-    Replace {port} with the desired port number.
+4. Add the following variables to a .env file for this application to run.
+
+    Variable | Description | Example
+    -----|:--------------------------------|:---------
+    DELTA_LAKE_PATH | Folder with Delta Tables | /home/user/epa-data
+    GITHUB_CLIENT_ID | Client ID given by GitHub | clientid
+    GITHUB_CLIENT_SECRET | Client secret giveb by GitHub| supersecretkey
+
+4. Run the api server. Replace {port} with the desired port number.
 
     ```bash
     uvicorn main:app --host 0.0.0.0 --port {port}
     ```
 
-####  Environment Variables
-Add the following variables to a .env file for this application to run.
-
-Variable | Description | Example
------|:--------------------------------|:---------
-DELTA_LAKE_PATH | Folder with Delta Tables | /home/user/epa-data
-GITHUB_CLIENT_ID | Client ID given by GitHub | clientid
-GITHUB_CLIENT_SECRET | Client secret giveb by GitHub| supersecretkey
-
-
-Tip: You can use python-dotenv to automatically load variables from a .env file.
-
-####
+## License & Copyright
+Copyright (C) Environmental Data and Governance Initiative (EDGI) This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, version 3.0.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+See the [LICENSE](../LICENSE) file for details.
