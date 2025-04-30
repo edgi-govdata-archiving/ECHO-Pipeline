@@ -1,0 +1,72 @@
+[
+    {
+        "download_link": "https://echo.epa.gov/files/echodownloads/npdes_limits.zip",
+        "schema_link": "https://echo.epa.gov/tools/data-downloads/icis-npdes-limit-summary",
+        "notes": ""
+    },
+    {
+        "download_link": "https://echo.epa.gov/files/echodownloads/rcra_downloads.zip",
+        "schema_link": "https://echo.epa.gov/tools/data-downloads/rcrainfo-download-summary",
+        "manual_schemas": ["RCRA_EVALUATIONS.csv"],
+        "notes": ""
+    },
+    {
+        "download_link": "https://echo.epa.gov/files/echodownloads/npdes_dmrs_fy2022.zip",
+        "schema_link": "https://echo.epa.gov/tools/data-downloads/icis-npdes-dmr-summary",
+        "manual_schemas": ["NPDES_DMR_FYxxxx.csv"],
+        "notes": ""
+    },
+    {
+        "download_link": "https://echo.epa.gov/files/echodownloads/npdes_eff_downloads.zip",
+        "schema_link": "https://echo.epa.gov/tools/data-downloads/icis-npdes-download-summary",
+        "manual_schemas": ["NPDES_INSPECTIONS.csv", "NPDES_EFF_VIOLATIONS.csv", "ICIS_PERMITS.csv", "NPDES_CS_VIOLATIONS.csv"],
+        "notes": ""
+    },
+    {
+        "download_link": "https://echo.epa.gov/files/echodownloads/case_downloads.zip",
+        "schema_link": "https://echo.epa.gov/tools/data-downloads/icis-fec-download-summary",
+        "manual_schemas": ["EPA_INFORMAL_ENFORCEMENT_ACTIONS.csv", "CASE_ENFORCEMENTS.csv"],
+        "notes": ""
+    },
+    {
+        "download_link": "https://echo.epa.gov/files/echodownloads/frs_downloads.zip",
+        "schema_link": "https://echo.epa.gov/tools/data-downloads/frs-download-summary",
+        "notes": ""
+    },
+    {
+        "download_link": "https://echo.epa.gov/files/echodownloads/ICIS-AIR_downloads.zip",
+        "schema_link": "https://echo.epa.gov/tools/data-downloads/icis-air-download-summary",
+        "manual_schemas": ["ICIS-AIR_FACILITIES.csv"],
+        "notes": ""
+    },
+    {
+        "download_link": "https://echo.epa.gov/files/echodownloads/npdes_downloads.zip",
+        "schema_link": "https://echo.epa.gov/tools/data-downloads/icis-npdes-download-summary",
+        "manual_schemas": ["NPDES_INSPECTIONS.csv", "NPDES_EFF_VIOLATIONS.csv", "ICIS_PERMITS.csv", "NPDES_CS_VIOLATIONS.csv"],
+        "notes": ""
+    },
+    {
+        "download_link": "https://echo.epa.gov/files/echodownloads/SDWA_downloads.zip",
+        "schema_link": "https://echo.epa.gov/tools/data-downloads/sdwa-download-summary",
+        "manual_schemas": ["SDWA_ENFORCEMENTS.csv","SDWA_PUB_WATER_SYSTEMS.csv","SDWA_SERIOUS_VIOLATORS.csv","SDWA_SITE_VISITS.csv","SDWA_VIOLATIONS.csv"],
+        "notes": ""
+    },
+    {
+        "download_link": "https://echo.epa.gov/files/echodownloads/npdes_dmrs_fy2020.zip",
+        "schema_link": "https://echo.epa.gov/tools/data-downloads/icis-npdes-dmr-summary",
+        "manual_schemas": ["NPDES_DMR_FYxxxx.csv"],
+        "notes": ""
+    },
+    {
+        "download_link": "https://echo.epa.gov/files/echodownloads/POLL_RPT_COMBINED_EMISSIONS.zip",
+        "schema_link": "https://echo.epa.gov/tools/data-downloads/air-emissions-download-summary",
+        "manual_schemas": ["POLL_RPT_COMBINED_EMISSIONS.csv"],
+        "notes": ""
+    },
+    {
+        "download_link": "https://echo.epa.gov/files/echodownloads/echo_exporter.zip",
+        "schema_link": "https://echo.epa.gov/system/files/echo_exporter_columns_07242019.xlsx",
+        "manual_schemas": ["ECHO_EXPORTER.csv"],
+        "notes": "echo_exporter-Export Worksheet-6"
+    }
+]
