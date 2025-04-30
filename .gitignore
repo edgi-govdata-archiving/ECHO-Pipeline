@@ -1,0 +1,15 @@
+__pycache__/
+data/
+echo-downloads/
+epa-data/
+.ipynb_checkpoints/
+logs/
+*/missed_files.txt
+datasets_info.json
+.env
+metastore_db
+.ipynb_checkpoints
+spark-warehouse
+venv
+Output
+CSVs

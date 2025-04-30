@@ -1,0 +1,41 @@
+services:
+  scraper:
+    build:
+      context: ./data-scraper
+    container_name: data-scraper
+    stdin_open: true 
+    tty: true
+    working_dir: /app  # Set working directory
+    environment:
+      - LOCAL_ECHODOWNLOADS_PATH=/app/echo-downloads
+      - LOCAL_STORAGE_PATH=/app/epa-data
+      - JSON_FILES_PATH=/app/json
+      - PYTHONDONTWRITEBYTECODE=1  
+      - PYTHONUNBUFFERED=1        
+    volumes:
+      - ./data-scraper:/app  # Local scraper code
+      - ${LOCAL_ECHODOWNLOADS_HOST_PATH}:/app/echo-downloads
+      - ${STORAGE_HOST_PATH}:/app/epa-data
+      - ${JSON_DIR_HOST_PATH}:/app/json
+
+  storer:
+    build:
+      context: ./data-storer-dev
+    container_name: data-storer
+    stdin_open: true 
+    tty: true
+    working_dir: /app  # Set working directory
+    environment:
+    - LOCAL_STORAGE_PATH=/app/epa-data
+    - JSON_FILES_PATH=/app/json
+    - PYTHONDONTWRITEBYTECODE=1  
+    - PYTHONUNBUFFERED=1         
+    volumes:
+      - ./data-storer-dev:/app  # Local storer code
+      - ${STORAGE_HOST_PATH}:/app/epa-data
+      - ${JSON_DIR_HOST_PATH}:/app/json
+    ports:
+      - "4041:4040" # Spark UI port
+    
+  
+

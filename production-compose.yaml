@@ -1,0 +1,19 @@
+services:
+  scraper:
+    build:
+      context: ./data-scraper
+    container_name: data-scraper
+    stdin_open: true 
+    tty: true
+    working_dir: /app  # Set working directory
+    environment:
+      - LOCAL_ECHODOWNLOADS_PATH=/app/echo-downloads
+      - LOCAL_STORAGE_PATH=/app/epa-data
+      - JSON_FILES_PATH=/app/json
+      - PYTHONDONTWRITEBYTECODE=1  
+      - PYTHONUNBUFFERED=1        
+    volumes:
+      - ./data-scraper:/app  # Local scraper code
+      - ${LOCAL_ECHODOWNLOADS_HOST_PATH}:/app/echo-downloads
+      - ${STORAGE_HOST_PATH}:/app/epa-data
+      - ${JSON_DIR_HOST_PATH}:/app/json
