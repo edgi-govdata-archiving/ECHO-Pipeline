@@ -8,7 +8,7 @@ This project consist of the following components:
 This directory contains scripts for mirroring and archiving the [ECHO Downloads](https://echo.epa.gov/files/echodownloads/) site. It scans the website for downloadable file links, downloads them, and stores them in a local folder structure that mirrors the website's organization. The goal is to create a local archive for backup, offline access, or data ingestion by the next data-scraper tool.
 
 ### 2. data-scraper ([Documentation](data-scraper/README.md))
-This directory contains scripts and tools for downloading and scraping datasets from ECHO.
+This directory contains scripts to download CSV files and scrape the matching schemas from (the EPA site)[https://echo.epa.gov/tools/data-downloads]. The system is containerized using Docker for portability and reproducibility.
 
 ### 3. data-storer-dev ([Documentation](data-storer-dev/README.md))
 This directory contains scripts for ingesting the scraped data (e.g CSV and JSON) from the data-scraper tool into the Delta Lake docker container based on the Delta Lake Quickstart Docker using PySpark. While this tool was created for the development environment, it can be deployed as a local Delta Lake system so analysts using the ECHO_modules_delta can directly access the ingested ECHO tables in the local Delta Lake system
