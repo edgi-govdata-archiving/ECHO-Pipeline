@@ -6,7 +6,7 @@ deltalake==0.16.4
 exceptiongroup==1.2.2
 fastapi==0.115.12
 fastapi-cli==0.0.7
-h11==0.14.0
+h11==0.16.0
 httptools==0.6.4
 idna==3.10
 importlib_metadata==8.6.1
