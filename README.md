@@ -44,7 +44,9 @@ This directory contains the schema files and additional configuration files used
     ```bash
     docker compose -f dev-compose.yaml build
     ```
-3. Start the containers:
+    **NOTE**: If you use Docker Desktop, increase the limits of several resource allocations. We tested the containers with 8 CPU, 12 GB Memory limit, and 4 GB Swap size. This will prevent the Out of Memory errors. 
+    
+4. Start the containers:
     ```bash
     docker compose -f dev-compose.yaml up
     ```
