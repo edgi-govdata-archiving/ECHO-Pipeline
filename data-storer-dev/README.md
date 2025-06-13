@@ -7,7 +7,7 @@ This directory contains scripts for ingesting the scraped data (e.g CSV and JSON
 ### Running in Docker
 1. After verifying the containers are running, access the storer container's shell using the following command:
     ```bash
-    docker compose -f dev-compose.yaml storer exec bash
+    docker compose -f dev-compose.yaml exec storer bash
     ```
 
 2. Run the savetolake.py script:
