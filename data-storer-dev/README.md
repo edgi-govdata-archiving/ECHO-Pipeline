@@ -5,6 +5,9 @@ This directory contains scripts for ingesting the scraped data (e.g CSV and JSON
 
 ## How to Run:
 ### Running in Docker
+
+**NOTE**: If you use Docker Desktop, increase the limits of several resource allocations. We tested the containers with 8 CPU, 12 GB Memory limit, and 4 GB Swap size. This will prevent the Out of Memory errors. 
+
 1. After verifying the containers are running, access the storer container's shell using the following command:
     ```bash
     docker compose -f dev-compose.yaml exec storer bash
