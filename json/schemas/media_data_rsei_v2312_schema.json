@@ -1,0 +1,70 @@
+{
+    "schema": [
+        {
+            "COLUMN_NAME": "Media",
+            "ORIGINAL_DATA_TYPE": "numeric NOT NULL",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "MediaText",
+            "ORIGINAL_DATA_TYPE": "character varying NOT NULL",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "TRIEnvironmentalMedium",
+            "ORIGINAL_DATA_TYPE": "character varying NOT NULL",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "Itw",
+            "ORIGINAL_DATA_TYPE": "numeric NOT NULL",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "Otw",
+            "ORIGINAL_DATA_TYPE": "numeric NOT NULL",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "Mtw",
+            "ORIGINAL_DATA_TYPE": "numeric NOT NULL",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "MediaCode",
+            "ORIGINAL_DATA_TYPE": "numeric NOT NULL",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "TRICode",
+            "ORIGINAL_DATA_TYPE": "character varying NOT NULL",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "TRICategory",
+            "ORIGINAL_DATA_TYPE": "character varying NOT NULL",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "LongDescription",
+            "ORIGINAL_DATA_TYPE": "character varying NOT NULL",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "AggDescription",
+            "ORIGINAL_DATA_TYPE": "character varying NOT NULL",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        }
+    ]
+}

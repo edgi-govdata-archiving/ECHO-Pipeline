@@ -1,6 +1,6 @@
 {
-    "NPDES_DMRS_FY2020.csv": "NPDES_DMR_FY2020_schema.json",
-    "NPDES_DMRS_FY2022.csv": "NPDES_DMR_FY2022_schema.json",
+    "NPDES_DMRS_FY2020.csv": "NPDES_DMR_FYxxxx_schema.json",
+    "NPDES_DMRS_FY2022.csv": "NPDES_DMR_FYxxxx_schema.json",
     "CASE_ENFORCEMENT_CONCLUSION_POLLUTANTS.csv": "CASE_ENFORCEMENT_CONCLUSION_POLLUTANTS_schema.json",
     "CASE_ENFORCEMENT_CONCLUSIONS.csv": "CASE_ENFORCEMENT_CONCLUSIONS_schema.json",
     "CASE_ENFORCEMENTS.csv": "CASE_ENFORCEMENTS_schema.json",
@@ -31,5 +31,16 @@
     "SDWA_PUB_WATER_SYSTEMS.csv": "SDWA_PUB_WATER_SYSTEMS_schema.json",
     "SDWA_SERIOUS_VIOLATORS.csv":"SDWA_SERIOUS_VIOLATORS_schema.json",
     "SDWA_SITE_VISITS.csv": "SDWA_SITE_VISITS_schema.json",
-    "SDWA_VIOLATIONS.csv": "SDWA_VIOLATIONS_schema.json"
+    "SDWA_VIOLATIONS.csv": "SDWA_VIOLATIONS_schema.json",
+    "EJSCREEN_2021_USPR.csv": "EJSCREEN_schema.json",
+    "category_data_rsei_v2312.csv": "category_data_rsei_v2312_schema.json",
+    "elements_data_rsei_v2312.csv": "elements_data_rsei_v2312_schema.json",
+    "media_data_rsei_v2312.csv": "media_data_rsei_v2312_schema.json",
+    "chemical_data_rsei_v2312.csv": "chemical_data_rsei_v2312_schema.json",
+    "facility_data_rsei_v2312.csv": "facility_data_rsei_v2312_schema.json",
+    "mcl_data_rsei_v2312.csv": "mcl_data_rsei_v2312_schema.json",
+    "naics_data_rsei_v2312.csv": "naics_data_rsei_v2312_schema.json",
+    "offsite_data_rsei_v2312.csv": "offsite_data_rsei_v2312_schema.json",
+    "releases_data_rsei_v2312.csv": "releases_data_rsei_v2312_schema.json",
+    "submissions_data_rsei_v2312.csv": "submissions_data_rsei_v2312_schema.json"
 }

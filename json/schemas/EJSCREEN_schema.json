@@ -1,0 +1,934 @@
+{
+    "schema": [
+  {
+    "COLUMN_NAME": "OBJECTID",
+    "ORIGINAL_DATA_TYPE": "smallint",
+    "SPARK_DATA_TYPE": "ShortType()",
+    "PANDAS_DATA_TYPE": "int16"
+  },
+  {
+    "COLUMN_NAME": "ID",
+    "ORIGINAL_DATA_TYPE": "bigint",
+    "SPARK_DATA_TYPE": "LongType()",
+    "PANDAS_DATA_TYPE": "int64"
+  },
+  {
+    "COLUMN_NAME": "ACSTOTPOP",
+    "ORIGINAL_DATA_TYPE": "smallint",
+    "SPARK_DATA_TYPE": "ShortType()",
+    "PANDAS_DATA_TYPE": "int16"
+  },
+  {
+    "COLUMN_NAME": "ACSIPOVBAS",
+    "ORIGINAL_DATA_TYPE": "smallint",
+    "SPARK_DATA_TYPE": "ShortType()",
+    "PANDAS_DATA_TYPE": "int16"
+  },
+  {
+    "COLUMN_NAME": "ACSEDUCBAS",
+    "ORIGINAL_DATA_TYPE": "smallint",
+    "SPARK_DATA_TYPE": "ShortType()",
+    "PANDAS_DATA_TYPE": "int16"
+  },
+  {
+    "COLUMN_NAME": "ACSTOTHH",
+    "ORIGINAL_DATA_TYPE": "smallint",
+    "SPARK_DATA_TYPE": "ShortType()",
+    "PANDAS_DATA_TYPE": "int16"
+  },
+  {
+    "COLUMN_NAME": "ACSTOTHU",
+    "ORIGINAL_DATA_TYPE": "smallint",
+    "SPARK_DATA_TYPE": "ShortType()",
+    "PANDAS_DATA_TYPE": "int16"
+  },
+  {
+    "COLUMN_NAME": "ACSUNEMPBAS",
+    "ORIGINAL_DATA_TYPE": "smallint",
+    "SPARK_DATA_TYPE": "ShortType()",
+    "PANDAS_DATA_TYPE": "int16"
+  },
+  {
+    "COLUMN_NAME": "MINORPOP",
+    "ORIGINAL_DATA_TYPE": "smallint",
+    "SPARK_DATA_TYPE": "ShortType()",
+    "PANDAS_DATA_TYPE": "int16"
+  },
+  {
+    "COLUMN_NAME": "MINORPCT",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "LOWINCOME",
+    "ORIGINAL_DATA_TYPE": "int",
+    "SPARK_DATA_TYPE": "IntegerType()",
+    "PANDAS_DATA_TYPE": "int32"
+  },
+  {
+    "COLUMN_NAME": "LOWINCPCT",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "LESSHS",
+    "ORIGINAL_DATA_TYPE": "int",
+    "SPARK_DATA_TYPE": "IntegerType()",
+    "PANDAS_DATA_TYPE": "int32"
+  },
+  {
+    "COLUMN_NAME": "LESSHSPCT",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "LINGISO",
+    "ORIGINAL_DATA_TYPE": "int",
+    "SPARK_DATA_TYPE": "IntegerType()",
+    "PANDAS_DATA_TYPE": "int32"
+  },
+  {
+    "COLUMN_NAME": "LINGISOPCT",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "UNDER5",
+    "ORIGINAL_DATA_TYPE": "int",
+    "SPARK_DATA_TYPE": "IntegerType()",
+    "PANDAS_DATA_TYPE": "int32"
+  },
+  {
+    "COLUMN_NAME": "UNDER5PCT",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "OVER64",
+    "ORIGINAL_DATA_TYPE": "int",
+    "SPARK_DATA_TYPE": "IntegerType()",
+    "PANDAS_DATA_TYPE": "int32"
+  },
+  {
+    "COLUMN_NAME": "OVER64PCT",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "PRE1960",
+    "ORIGINAL_DATA_TYPE": "int",
+    "SPARK_DATA_TYPE": "IntegerType()",
+    "PANDAS_DATA_TYPE": "int32"
+  },
+  {
+    "COLUMN_NAME": "PRE1960PCT",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "UNEMPLOYED",
+    "ORIGINAL_DATA_TYPE": "int",
+    "SPARK_DATA_TYPE": "IntegerType()",
+    "PANDAS_DATA_TYPE": "int32"
+  },
+  {
+    "COLUMN_NAME": "UNEMPPCT",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "VULEOPCT",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "VULEO",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "DISPEO",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "DSLPM",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "CANCER",
+    "ORIGINAL_DATA_TYPE": "smallint",
+    "SPARK_DATA_TYPE": "ShortType()",
+    "PANDAS_DATA_TYPE": "int16"
+  },
+  {
+    "COLUMN_NAME": "RESP",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "PTRAF",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "PWDIS",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "PNPL",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "PRMP",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "PTSDF",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "OZONE",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "PM25",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "UST",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "D_LDPNT_2",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "D_DSLPM_2",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "D_CANCR_2",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "D_RESP_2",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "D_PTRAF_2",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "D_PWDIS_2",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "D_PNPL_2",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "D_PRMP_2",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "D_PTSDF_2",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "D_OZONE_2",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "D_PM25_2",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "D_UST_2",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "STATE_NAME",
+    "ORIGINAL_DATA_TYPE": "varchar",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "ST_ABBREV",
+    "ORIGINAL_DATA_TYPE": "varchar",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "REGION",
+    "ORIGINAL_DATA_TYPE": "smallint",
+    "SPARK_DATA_TYPE": "ShortType()",
+    "PANDAS_DATA_TYPE": "int16"
+  },
+  {
+    "COLUMN_NAME": "P_MINORPCT",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "P_LWINCPCT",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "P_LESHSPCT",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "P_LNGISPCT",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "P_UNDR5PCT",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "P_OVR64PCT",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "P_LDPNT",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "P_UNEMPPCT",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "P_VULEOPCT",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "P_DSLPM",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "P_CANCR",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "P_RESP",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "P_PTRAF",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "P_PWDIS",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "P_PNPL",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "P_PRMP",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "P_PTSDF",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "P_OZONE",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "P_PM25",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "P_UST",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "P_LDPNT_D2",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "P_DSLPM_D2",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "P_CANCR_D2",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "P_RESP_D2",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "P_PTRAF_D2",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "P_PWDIS_D2",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "P_PNPL_D2",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "P_PRMP_D2",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "P_PTSDF_D2",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "P_OZONE_D2",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "P_PM25_D2",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "P_UST_D2",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "B_MINORPCT",
+    "ORIGINAL_DATA_TYPE": "smallint",
+    "SPARK_DATA_TYPE": "ShortType()",
+    "PANDAS_DATA_TYPE": "int16"
+  },
+  {
+    "COLUMN_NAME": "B_LWINCPCT",
+    "ORIGINAL_DATA_TYPE": "smallint",
+    "SPARK_DATA_TYPE": "ShortType()",
+    "PANDAS_DATA_TYPE": "int16"
+  },
+  {
+    "COLUMN_NAME": "B_LESHSPCT",
+    "ORIGINAL_DATA_TYPE": "smallint",
+    "SPARK_DATA_TYPE": "ShortType()",
+    "PANDAS_DATA_TYPE": "int16"
+  },
+  {
+    "COLUMN_NAME": "B_LNGISPCT",
+    "ORIGINAL_DATA_TYPE": "smallint",
+    "SPARK_DATA_TYPE": "ShortType()",
+    "PANDAS_DATA_TYPE": "int16"
+  },
+  {
+    "COLUMN_NAME": "B_UNDR5PCT",
+    "ORIGINAL_DATA_TYPE": "smallint",
+    "SPARK_DATA_TYPE": "ShortType()",
+    "PANDAS_DATA_TYPE": "int16"
+  },
+  {
+    "COLUMN_NAME": "B_OVR64PCT",
+    "ORIGINAL_DATA_TYPE": "smallint",
+    "SPARK_DATA_TYPE": "ShortType()",
+    "PANDAS_DATA_TYPE": "int16"
+  },
+  {
+    "COLUMN_NAME": "B_LDPNT",
+    "ORIGINAL_DATA_TYPE": "smallint",
+    "SPARK_DATA_TYPE": "ShortType()",
+    "PANDAS_DATA_TYPE": "int16"
+  },
+  {
+    "COLUMN_NAME": "B_UNEMPPCT",
+    "ORIGINAL_DATA_TYPE": "smallint",
+    "SPARK_DATA_TYPE": "ShortType()",
+    "PANDAS_DATA_TYPE": "int16"
+  },
+  {
+    "COLUMN_NAME": "B_VULEOPCT",
+    "ORIGINAL_DATA_TYPE": "smallint",
+    "SPARK_DATA_TYPE": "ShortType()",
+    "PANDAS_DATA_TYPE": "int16"
+  },
+  {
+    "COLUMN_NAME": "B_DSLPM",
+    "ORIGINAL_DATA_TYPE": "smallint",
+    "SPARK_DATA_TYPE": "ShortType()",
+    "PANDAS_DATA_TYPE": "int16"
+  },
+  {
+    "COLUMN_NAME": "B_CANCR",
+    "ORIGINAL_DATA_TYPE": "smallint",
+    "SPARK_DATA_TYPE": "ShortType()",
+    "PANDAS_DATA_TYPE": "int16"
+  },
+  {
+    "COLUMN_NAME": "B_RESP",
+    "ORIGINAL_DATA_TYPE": "smallint",
+    "SPARK_DATA_TYPE": "ShortType()",
+    "PANDAS_DATA_TYPE": "int16"
+  },
+  {
+    "COLUMN_NAME": "B_PTRAF",
+    "ORIGINAL_DATA_TYPE": "smallint",
+    "SPARK_DATA_TYPE": "ShortType()",
+    "PANDAS_DATA_TYPE": "int16"
+  },
+  {
+    "COLUMN_NAME": "B_PWDIS",
+    "ORIGINAL_DATA_TYPE": "smallint",
+    "SPARK_DATA_TYPE": "ShortType()",
+    "PANDAS_DATA_TYPE": "int16"
+  },
+  {
+    "COLUMN_NAME": "B_PNPL",
+    "ORIGINAL_DATA_TYPE": "smallint",
+    "SPARK_DATA_TYPE": "ShortType()",
+    "PANDAS_DATA_TYPE": "int16"
+  },
+  {
+    "COLUMN_NAME": "B_PRMP",
+    "ORIGINAL_DATA_TYPE": "smallint",
+    "SPARK_DATA_TYPE": "ShortType()",
+    "PANDAS_DATA_TYPE": "int16"
+  },
+  {
+    "COLUMN_NAME": "B_PTSDF",
+    "ORIGINAL_DATA_TYPE": "smallint",
+    "SPARK_DATA_TYPE": "ShortType()",
+    "PANDAS_DATA_TYPE": "int16"
+  },
+  {
+    "COLUMN_NAME": "B_OZONE",
+    "ORIGINAL_DATA_TYPE": "smallint",
+    "SPARK_DATA_TYPE": "ShortType()",
+    "PANDAS_DATA_TYPE": "int16"
+  },
+  {
+    "COLUMN_NAME": "B_PM25",
+    "ORIGINAL_DATA_TYPE": "smallint",
+    "SPARK_DATA_TYPE": "ShortType()",
+    "PANDAS_DATA_TYPE": "int16"
+  },
+  {
+    "COLUMN_NAME": "B_UST",
+    "ORIGINAL_DATA_TYPE": "smallint",
+    "SPARK_DATA_TYPE": "ShortType()",
+    "PANDAS_DATA_TYPE": "int16"
+  },
+  {
+    "COLUMN_NAME": "B_LDPNT_D2",
+    "ORIGINAL_DATA_TYPE": "smallint",
+    "SPARK_DATA_TYPE": "ShortType()",
+    "PANDAS_DATA_TYPE": "int16"
+  },
+  {
+    "COLUMN_NAME": "B_DSLPM_D2",
+    "ORIGINAL_DATA_TYPE": "smallint",
+    "SPARK_DATA_TYPE": "ShortType()",
+    "PANDAS_DATA_TYPE": "int16"
+  },
+  {
+    "COLUMN_NAME": "B_CANCR_D2",
+    "ORIGINAL_DATA_TYPE": "smallint",
+    "SPARK_DATA_TYPE": "ShortType()",
+    "PANDAS_DATA_TYPE": "int16"
+  },
+  {
+    "COLUMN_NAME": "B_RESP_D2",
+    "ORIGINAL_DATA_TYPE": "smallint",
+    "SPARK_DATA_TYPE": "ShortType()",
+    "PANDAS_DATA_TYPE": "int16"
+  },
+  {
+    "COLUMN_NAME": "B_PTRAF_D2",
+    "ORIGINAL_DATA_TYPE": "smallint",
+    "SPARK_DATA_TYPE": "ShortType()",
+    "PANDAS_DATA_TYPE": "int16"
+  },
+  {
+    "COLUMN_NAME": "B_PWDIS_D2",
+    "ORIGINAL_DATA_TYPE": "smallint",
+    "SPARK_DATA_TYPE": "ShortType()",
+    "PANDAS_DATA_TYPE": "int16"
+  },
+  {
+    "COLUMN_NAME": "B_PNPL_D2",
+    "ORIGINAL_DATA_TYPE": "smallint",
+    "SPARK_DATA_TYPE": "ShortType()",
+    "PANDAS_DATA_TYPE": "int16"
+  },
+  {
+    "COLUMN_NAME": "B_PRMP_D2",
+    "ORIGINAL_DATA_TYPE": "smallint",
+    "SPARK_DATA_TYPE": "ShortType()",
+    "PANDAS_DATA_TYPE": "int16"
+  },
+  {
+    "COLUMN_NAME": "B_PTSDF_D2",
+    "ORIGINAL_DATA_TYPE": "smallint",
+    "SPARK_DATA_TYPE": "ShortType()",
+    "PANDAS_DATA_TYPE": "int16"
+  },
+  {
+    "COLUMN_NAME": "B_OZONE_D2",
+    "ORIGINAL_DATA_TYPE": "smallint",
+    "SPARK_DATA_TYPE": "ShortType()",
+    "PANDAS_DATA_TYPE": "int16"
+  },
+  {
+    "COLUMN_NAME": "B_PM25_D2",
+    "ORIGINAL_DATA_TYPE": "smallint",
+    "SPARK_DATA_TYPE": "ShortType()",
+    "PANDAS_DATA_TYPE": "int16"
+  },
+  {
+    "COLUMN_NAME": "B_UST_D2",
+    "ORIGINAL_DATA_TYPE": "smallint",
+    "SPARK_DATA_TYPE": "ShortType()",
+    "PANDAS_DATA_TYPE": "int16"
+  },
+  {
+    "COLUMN_NAME": "T_MINORPCT",
+    "ORIGINAL_DATA_TYPE": "varchar",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "T_LWINCPCT",
+    "ORIGINAL_DATA_TYPE": "varchar",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "T_LESHSPCT",
+    "ORIGINAL_DATA_TYPE": "varchar",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "T_LNGISPCT",
+    "ORIGINAL_DATA_TYPE": "varchar",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "T_UNDR5PCT",
+    "ORIGINAL_DATA_TYPE": "varchar",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "T_OVR64PCT",
+    "ORIGINAL_DATA_TYPE": "varchar",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "T_UNEMPPCT",
+    "ORIGINAL_DATA_TYPE": "varchar",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "T_VULEOPCT",
+    "ORIGINAL_DATA_TYPE": "varchar",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "T_LDPNT",
+    "ORIGINAL_DATA_TYPE": "varchar",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "T_LDPNT_D2",
+    "ORIGINAL_DATA_TYPE": "varchar",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "T_DSLPM",
+    "ORIGINAL_DATA_TYPE": "varchar",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "T_DSLPM_D2",
+    "ORIGINAL_DATA_TYPE": "varchar",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "T_CANCR",
+    "ORIGINAL_DATA_TYPE": "varchar",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "T_CANCR_D2",
+    "ORIGINAL_DATA_TYPE": "varchar",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "T_RESP",
+    "ORIGINAL_DATA_TYPE": "varchar",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "T_RESP_D2",
+    "ORIGINAL_DATA_TYPE": "varchar",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "T_PTRAF",
+    "ORIGINAL_DATA_TYPE": "varchar",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "T_PTRAF_D2",
+    "ORIGINAL_DATA_TYPE": "varchar",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "T_PWDIS",
+    "ORIGINAL_DATA_TYPE": "varchar",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "T_PWDIS_D2",
+    "ORIGINAL_DATA_TYPE": "varchar",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "T_PNPL",
+    "ORIGINAL_DATA_TYPE": "varchar",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "T_PNPL_D2",
+    "ORIGINAL_DATA_TYPE": "varchar",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "T_PRMP",
+    "ORIGINAL_DATA_TYPE": "varchar",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "T_PRMP_D2",
+    "ORIGINAL_DATA_TYPE": "varchar",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "T_PTSDF",
+    "ORIGINAL_DATA_TYPE": "varchar",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "T_PTSDF_D2",
+    "ORIGINAL_DATA_TYPE": "varchar",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "T_OZONE",
+    "ORIGINAL_DATA_TYPE": "varchar",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "T_OZONE_D2",
+    "ORIGINAL_DATA_TYPE": "varchar",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "T_PM25",
+    "ORIGINAL_DATA_TYPE": "varchar",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "T_PM25_D2",
+    "ORIGINAL_DATA_TYPE": "varchar",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "T_UST",
+    "ORIGINAL_DATA_TYPE": "varchar",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "T_UST_D2",
+    "ORIGINAL_DATA_TYPE": "varchar",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "AREALAND",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "AREAWATER",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "NPL_CNT",
+    "ORIGINAL_DATA_TYPE": "smallint",
+    "SPARK_DATA_TYPE": "ShortType()",
+    "PANDAS_DATA_TYPE": "int16"
+  },
+  {
+    "COLUMN_NAME": "TSDF_CNT",
+    "ORIGINAL_DATA_TYPE": "smallint",
+    "SPARK_DATA_TYPE": "ShortType()",
+    "PANDAS_DATA_TYPE": "int16"
+  },
+  {
+    "COLUMN_NAME": "Shape_Length",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "Shape_Area",
+    "ORIGINAL_DATA_TYPE": "double",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  }
+]
+}

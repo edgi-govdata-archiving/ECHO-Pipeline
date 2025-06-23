@@ -1,0 +1,70 @@
+{
+    "schema": [
+        {
+            "COLUMN_NAME": "ReleaseNumber",
+            "ORIGINAL_DATA_TYPE": "numeric NOT NULL",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "SubmissionNumber",
+            "ORIGINAL_DATA_TYPE": "numeric NOT NULL",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "Media",
+            "ORIGINAL_DATA_TYPE": "numeric NOT NULL",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "PoundsReleased",
+            "ORIGINAL_DATA_TYPE": "numeric NOT NULL",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "OffsiteNumber",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "TEF",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "TEFSource",
+            "ORIGINAL_DATA_TYPE": "character varying",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "DCN",
+            "ORIGINAL_DATA_TYPE": "numeric NOT NULL",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "TransferLocNum",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "OffsiteAmountSequence",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "WaterSequenceNum",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        }
+    ]
+}

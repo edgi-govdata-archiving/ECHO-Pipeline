@@ -6,16 +6,13 @@ from datetime import datetime
 from delta import *
 from dotenv import load_dotenv
 
-# Configure logging
+
 logger = logging.getLogger(__name__)
 
-# Load .env file
-load_dotenv()
-
-DELTA_LAKE_PATH = os.getenv("DELTA_LAKE_PATH")
-STORAGE_PATH = os.getenv("STORAGE_PATH")
+STORAGE_PATH = os.getenv("STORAGE_HOST_PATH")
 EXTRACTED_DATA_PATH = os.path.join(STORAGE_PATH, 'updated-datasets')
-JSON_PATH = os.getenv("JSON_FILES_PATH")
+JSON_PATH = os.getenv("JSON_DIR_HOST_PATH")
+DELTA_LAKE_PATH = os.path.join(STORAGE_PATH, 'data-lake')
 SCHEMAS_PATH = os.path.join(JSON_PATH, 'schemas')
 
 # Initialize Spark session with Delta Lake support
@@ -69,7 +66,7 @@ def process_pgm(spark, pgm):
         FROM exploded_data
     """)
 
-    logger.info(f"✅ Inserted records into {target_table}")
+    logger.info(f"Inserted records into {target_table}")
 
 def build_exp_pgm(spark):
     target_table = os.path.join(DELTA_LAKE_PATH, "EXP_PGM")
@@ -92,7 +89,7 @@ def build_exp_pgm(spark):
     for pgm in flags_and_ids.items():
         process_pgm(spark, pgm)
 
-    logger.info("✅ Lookup table EXP_PGM updated successfully!")
+    logger.info("Lookup table EXP_PGM updated successfully!")
 
 # Run the script
 if __name__ == "__main__":

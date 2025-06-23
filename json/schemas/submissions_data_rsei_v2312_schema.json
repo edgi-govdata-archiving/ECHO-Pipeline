@@ -1,0 +1,94 @@
+{
+    "schema": [
+        {
+            "COLUMN_NAME": "DCN",
+            "ORIGINAL_DATA_TYPE": "character varying",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "SubmissionNumber",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "FacilityID",
+            "ORIGINAL_DATA_TYPE": "character varying",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "FacilityNumber",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "CAS",
+            "ORIGINAL_DATA_TYPE": "character varying",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "ChemicalNumber",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "SubmissionYear",
+            "ORIGINAL_DATA_TYPE": "character varying",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "MPOUse",
+            "ORIGINAL_DATA_TYPE": "character varying",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "MaxOnsite",
+            "ORIGINAL_DATA_TYPE": "character varying",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "EntireFac",
+            "ORIGINAL_DATA_TYPE": "character varying",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "OneTimeReleaseQty",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "OneTimeReleaseQtyNA",
+            "ORIGINAL_DATA_TYPE": "character varying",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "PartialFac",
+            "ORIGINAL_DATA_TYPE": "character varying",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "TradeSecretInd",
+            "ORIGINAL_DATA_TYPE": "character varying",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "FormTypeIndicator",
+            "ORIGINAL_DATA_TYPE": "character varying",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        }
+    ]
+}

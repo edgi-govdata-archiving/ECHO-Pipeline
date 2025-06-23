@@ -1,0 +1,238 @@
+{
+    "schema": [
+        {
+            "COLUMN_NAME": "CASNumber",
+            "ORIGINAL_DATA_TYPE": "character varying NOT NULL",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "CASStandard",
+            "ORIGINAL_DATA_TYPE": "character varying NOT NULL",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "ChemicalNumber",
+            "ORIGINAL_DATA_TYPE": "numeric NOT NULL",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "Chemical",
+            "ORIGINAL_DATA_TYPE": "character varying NOT NULL",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "MCL1988",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "MCL1989",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "MCL1990",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "MCL1991",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "MCL1992",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "MCL1993",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "MCL1994",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "MCL1995",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "MCL1996",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "MCL1997",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "MCL1998",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "MCL1999",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "MCL2000",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "MCL2001",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "MCL2002",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "MCL2003",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "MCL2004",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "MCL2005",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "MCL2006",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "MCL2007",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "MCL2008",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "MCL2009",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "MCL2010",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "MCL2011",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "MCL2012",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "MCL2013",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "MCL2014",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "MCL2015",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "MCL2016",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "MCL2017",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "MCL2018",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "MCL2019",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "MCL2020",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "MCL2021",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "MCL2022",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "schema": [
+        {
+            "COLUMN_NAME": "2022NAICSCode",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "LongName",
+            "ORIGINAL_DATA_TYPE": "character varying",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "Changed2022",
+            "ORIGINAL_DATA_TYPE": "character varying",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "TRIIndustrySector",
+            "ORIGINAL_DATA_TYPE": "character varying",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "IndustrySubsector",
+            "ORIGINAL_DATA_TYPE": "character varying",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "4DigitNAICS",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "NewIndustry",
+            "ORIGINAL_DATA_TYPE": "boolean",
+            "SPARK_DATA_TYPE": "BooleanType()",
+            "PANDAS_DATA_TYPE": "bool"
+        }
+    ]
+}

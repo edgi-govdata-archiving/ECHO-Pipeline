@@ -1,0 +1,130 @@
+{
+    "schema": [
+        {
+            "COLUMN_NAME": "ElementNumber",
+            "ORIGINAL_DATA_TYPE": "numeric NOT NULL",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "ReleaseNumber",
+            "ORIGINAL_DATA_TYPE": "numeric NOT NULL",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "PoundsPT",
+            "ORIGINAL_DATA_TYPE": "numeric NOT NULL",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "ScoreCategory",
+            "ORIGINAL_DATA_TYPE": "numeric NOT NULL",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "Score",
+            "ORIGINAL_DATA_TYPE": "numeric NOT NULL",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "Population",
+            "ORIGINAL_DATA_TYPE": "numeric NOT NULL",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "ScoreA",
+            "ORIGINAL_DATA_TYPE": "numeric NOT NULL",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "PopA",
+            "ORIGINAL_DATA_TYPE": "numeric NOT NULL",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "ScoreB",
+            "ORIGINAL_DATA_TYPE": "numeric NOT NULL",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "PopB",
+            "ORIGINAL_DATA_TYPE": "numeric NOT NULL",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "ScoreC",
+            "ORIGINAL_DATA_TYPE": "numeric NOT NULL",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "PopC",
+            "ORIGINAL_DATA_TYPE": "numeric NOT NULL",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "ScoreD",
+            "ORIGINAL_DATA_TYPE": "numeric NOT NULL",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "PopD",
+            "ORIGINAL_DATA_TYPE": "numeric NOT NULL",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "ScoreE",
+            "ORIGINAL_DATA_TYPE": "numeric NOT NULL",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "PopE",
+            "ORIGINAL_DATA_TYPE": "numeric NOT NULL",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "NCScore",
+            "ORIGINAL_DATA_TYPE": "numeric NOT NULL",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "CScore",
+            "ORIGINAL_DATA_TYPE": "numeric NOT NULL",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "Hazard",
+            "ORIGINAL_DATA_TYPE": "numeric NOT NULL",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "HazardC",
+            "ORIGINAL_DATA_TYPE": "numeric NOT NULL",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "HazardNC",
+            "ORIGINAL_DATA_TYPE": "numeric NOT NULL",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        }
+    ]
+}

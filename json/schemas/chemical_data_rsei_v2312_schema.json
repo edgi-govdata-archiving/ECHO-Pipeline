@@ -1,0 +1,538 @@
+{
+    "schema": [
+  {
+    "COLUMN_NAME": "CASNumber",
+    "ORIGINAL_DATA_TYPE": "character varying",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "CASStandard",
+    "ORIGINAL_DATA_TYPE": "character varying",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "ChemicalNumber",
+    "ORIGINAL_DATA_TYPE": "numeric",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "TRIChemID",
+    "ORIGINAL_DATA_TYPE": "character varying",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "MetalCombinedChemNum",
+    "ORIGINAL_DATA_TYPE": "numeric",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "SortCAS",
+    "ORIGINAL_DATA_TYPE": "numeric",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "SortNameKey",
+    "ORIGINAL_DATA_TYPE": "numeric",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "Chemical",
+    "ORIGINAL_DATA_TYPE": "character varying",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "FirstReportingYear",
+    "ORIGINAL_DATA_TYPE": "numeric",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "ToxicitySource",
+    "ORIGINAL_DATA_TYPE": "character varying",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "RfCInhale",
+    "ORIGINAL_DATA_TYPE": "numeric",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "RfCUF",
+    "ORIGINAL_DATA_TYPE": "numeric",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "RfCMF",
+    "ORIGINAL_DATA_TYPE": "numeric",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "RfCConf",
+    "ORIGINAL_DATA_TYPE": "character varying",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "RfCSource",
+    "ORIGINAL_DATA_TYPE": "character varying",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "RfCListingDate",
+    "ORIGINAL_DATA_TYPE": "character varying",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "RfCToxWeight",
+    "ORIGINAL_DATA_TYPE": "numeric",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "RFDOral",
+    "ORIGINAL_DATA_TYPE": "numeric",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "RfDUF",
+    "ORIGINAL_DATA_TYPE": "numeric",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "RfDMF",
+    "ORIGINAL_DATA_TYPE": "numeric",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "RfDConf",
+    "ORIGINAL_DATA_TYPE": "character varying",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "RfDListingDate",
+    "ORIGINAL_DATA_TYPE": "character varying",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "RfDSource",
+    "ORIGINAL_DATA_TYPE": "character varying",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "RfDToxWeight",
+    "ORIGINAL_DATA_TYPE": "numeric",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "UnitRiskInhale",
+    "ORIGINAL_DATA_TYPE": "numeric",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "QSTAROral",
+    "ORIGINAL_DATA_TYPE": "numeric",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "WOE",
+    "ORIGINAL_DATA_TYPE": "character varying",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "UnitRiskListingDate",
+    "ORIGINAL_DATA_TYPE": "character varying",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "UnitRiskSource",
+    "ORIGINAL_DATA_TYPE": "character varying",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "IURToxWeight",
+    "ORIGINAL_DATA_TYPE": "numeric",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "QStarListingDate",
+    "ORIGINAL_DATA_TYPE": "character varying",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "QStarSource",
+    "ORIGINAL_DATA_TYPE": "character varying",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "OSFToxWeight",
+    "ORIGINAL_DATA_TYPE": "numeric",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "WOEListingDate",
+    "ORIGINAL_DATA_TYPE": "character varying",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "WOESource",
+    "ORIGINAL_DATA_TYPE": "character varying",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "ITW",
+    "ORIGINAL_DATA_TYPE": "numeric",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "OTW",
+    "ORIGINAL_DATA_TYPE": "numeric",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "ToxicityClassOral",
+    "ORIGINAL_DATA_TYPE": "character varying",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "ToxicityClassInhale",
+    "ORIGINAL_DATA_TYPE": "character varying",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "ToxicityCategory",
+    "ORIGINAL_DATA_TYPE": "character varying",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "AirDecay",
+    "ORIGINAL_DATA_TYPE": "numeric",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "Koc",
+    "ORIGINAL_DATA_TYPE": "numeric",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "H2ODecay",
+    "ORIGINAL_DATA_TYPE": "numeric",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "LOGKow",
+    "ORIGINAL_DATA_TYPE": "numeric",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "Kd",
+    "ORIGINAL_DATA_TYPE": "numeric",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "WaterSolubility",
+    "ORIGINAL_DATA_TYPE": "numeric",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "POTWPartitionRemoval",
+    "ORIGINAL_DATA_TYPE": "numeric",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "POTWPartitionSludge",
+    "ORIGINAL_DATA_TYPE": "numeric",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "POTWPartitionVolat",
+    "ORIGINAL_DATA_TYPE": "numeric",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "POTWPartitionBiod",
+    "ORIGINAL_DATA_TYPE": "numeric",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "IncineratorDRE",
+    "ORIGINAL_DATA_TYPE": "numeric",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "BCF",
+    "ORIGINAL_DATA_TYPE": "numeric",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "Henrys",
+    "ORIGINAL_DATA_TYPE": "numeric",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "MCL",
+    "ORIGINAL_DATA_TYPE": "numeric",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "MolecularWeight",
+    "ORIGINAL_DATA_TYPE": "numeric",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "HAPFlag",
+    "ORIGINAL_DATA_TYPE": "boolean",
+    "SPARK_DATA_TYPE": "BooleanType()",
+    "PANDAS_DATA_TYPE": "bool"
+  },
+  {
+    "COLUMN_NAME": "RMPFlag",
+    "ORIGINAL_DATA_TYPE": "boolean",
+    "SPARK_DATA_TYPE": "BooleanType()",
+    "PANDAS_DATA_TYPE": "bool"
+  },
+  {
+    "COLUMN_NAME": "PriorityPollutantFlag",
+    "ORIGINAL_DATA_TYPE": "boolean",
+    "SPARK_DATA_TYPE": "BooleanType()",
+    "PANDAS_DATA_TYPE": "bool"
+  },
+  {
+    "COLUMN_NAME": "SDWAFlag",
+    "ORIGINAL_DATA_TYPE": "boolean",
+    "SPARK_DATA_TYPE": "BooleanType()",
+    "PANDAS_DATA_TYPE": "bool"
+  },
+  {
+    "COLUMN_NAME": "CERCLAFlag",
+    "ORIGINAL_DATA_TYPE": "boolean",
+    "SPARK_DATA_TYPE": "BooleanType()",
+    "PANDAS_DATA_TYPE": "bool"
+  },
+  {
+    "COLUMN_NAME": "OSHACarcinogens",
+    "ORIGINAL_DATA_TYPE": "boolean",
+    "SPARK_DATA_TYPE": "BooleanType()",
+    "PANDAS_DATA_TYPE": "bool"
+  },
+  {
+    "COLUMN_NAME": "ExpansionFlag",
+    "ORIGINAL_DATA_TYPE": "boolean",
+    "SPARK_DATA_TYPE": "BooleanType()",
+    "PANDAS_DATA_TYPE": "bool"
+  },
+  {
+    "COLUMN_NAME": "Core88ChemicalFlag",
+    "ORIGINAL_DATA_TYPE": "boolean",
+    "SPARK_DATA_TYPE": "BooleanType()",
+    "PANDAS_DATA_TYPE": "bool"
+  },
+  {
+    "COLUMN_NAME": "Core95ChemicalFlag",
+    "ORIGINAL_DATA_TYPE": "boolean",
+    "SPARK_DATA_TYPE": "BooleanType()",
+    "PANDAS_DATA_TYPE": "bool"
+  },
+  {
+    "COLUMN_NAME": "Core98ChemicalFlag",
+    "ORIGINAL_DATA_TYPE": "boolean",
+    "SPARK_DATA_TYPE": "BooleanType()",
+    "PANDAS_DATA_TYPE": "bool"
+  },
+  {
+    "COLUMN_NAME": "Core00ChemicalFlag",
+    "ORIGINAL_DATA_TYPE": "boolean",
+    "SPARK_DATA_TYPE": "BooleanType()",
+    "PANDAS_DATA_TYPE": "bool"
+  },
+  {
+    "COLUMN_NAME": "Core01ChemicalFlag",
+    "ORIGINAL_DATA_TYPE": "boolean",
+    "SPARK_DATA_TYPE": "BooleanType()",
+    "PANDAS_DATA_TYPE": "bool"
+  },
+  {
+    "COLUMN_NAME": "Core11ChemicalFlag",
+    "ORIGINAL_DATA_TYPE": "boolean",
+    "SPARK_DATA_TYPE": "BooleanType()",
+    "PANDAS_DATA_TYPE": "bool"
+  },
+  {
+    "COLUMN_NAME": "Core12ChemicalFlag",
+    "ORIGINAL_DATA_TYPE": "boolean",
+    "SPARK_DATA_TYPE": "BooleanType()",
+    "PANDAS_DATA_TYPE": "bool"
+  },
+  {
+    "COLUMN_NAME": "Core14ChemicalFlag",
+    "ORIGINAL_DATA_TYPE": "boolean",
+    "SPARK_DATA_TYPE": "BooleanType()",
+    "PANDAS_DATA_TYPE": "bool"
+  },
+  {
+    "COLUMN_NAME": "Core15ChemicalFlag",
+    "ORIGINAL_DATA_TYPE": "boolean",
+    "SPARK_DATA_TYPE": "BooleanType()",
+    "PANDAS_DATA_TYPE": "bool"
+  },
+  {
+    "COLUMN_NAME": "Core16ChemicalFlag",
+    "ORIGINAL_DATA_TYPE": "boolean",
+    "SPARK_DATA_TYPE": "BooleanType()",
+    "PANDAS_DATA_TYPE": "bool"
+  },
+  {
+    "COLUMN_NAME": "Core17ChemicalFlag",
+    "ORIGINAL_DATA_TYPE": "boolean",
+    "SPARK_DATA_TYPE": "BooleanType()",
+    "PANDAS_DATA_TYPE": "bool"
+  },
+  {
+    "COLUMN_NAME": "Core19ChemicalFlag",
+    "ORIGINAL_DATA_TYPE": "boolean",
+    "SPARK_DATA_TYPE": "BooleanType()",
+    "PANDAS_DATA_TYPE": "bool"
+  },
+  {
+    "COLUMN_NAME": "Core20ChemicalFlag",
+    "ORIGINAL_DATA_TYPE": "boolean",
+    "SPARK_DATA_TYPE": "BooleanType()",
+    "PANDAS_DATA_TYPE": "bool"
+  },
+  {
+    "COLUMN_NAME": "Core21ChemicalFlag",
+    "ORIGINAL_DATA_TYPE": "boolean",
+    "SPARK_DATA_TYPE": "BooleanType()",
+    "PANDAS_DATA_TYPE": "bool"
+  },
+  {
+    "COLUMN_NAME": "Core22ChemicalFlag",
+    "ORIGINAL_DATA_TYPE": "boolean",
+    "SPARK_DATA_TYPE": "BooleanType()",
+    "PANDAS_DATA_TYPE": "bool"
+  },
+  {
+    "COLUMN_NAME": "HPVFlag",
+    "ORIGINAL_DATA_TYPE": "boolean",
+    "SPARK_DATA_TYPE": "BooleanType()",
+    "PANDAS_DATA_TYPE": "bool"
+  },
+  {
+    "COLUMN_NAME": "HPVChallenge",
+    "ORIGINAL_DATA_TYPE": "numeric",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "PBTFlag",
+    "ORIGINAL_DATA_TYPE": "boolean",
+    "SPARK_DATA_TYPE": "BooleanType()",
+    "PANDAS_DATA_TYPE": "bool"
+  },
+  {
+    "COLUMN_NAME": "TSCAFlag",
+    "ORIGINAL_DATA_TYPE": "boolean",
+    "SPARK_DATA_TYPE": "BooleanType()",
+    "PANDAS_DATA_TYPE": "bool"
+  },
+  {
+    "COLUMN_NAME": "PFASFlag",
+    "ORIGINAL_DATA_TYPE": "boolean",
+    "SPARK_DATA_TYPE": "BooleanType()",
+    "PANDAS_DATA_TYPE": "bool"
+  },
+  {
+    "COLUMN_NAME": "Metal",
+    "ORIGINAL_DATA_TYPE": "numeric",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "HasTox",
+    "ORIGINAL_DATA_TYPE": "boolean",
+    "SPARK_DATA_TYPE": "BooleanType()",
+    "PANDAS_DATA_TYPE": "bool"
+  },
+  {
+    "COLUMN_NAME": "MaxTW",
+    "ORIGINAL_DATA_TYPE": "numeric",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "MaxNC",
+    "ORIGINAL_DATA_TYPE": "numeric",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "MaxC",
+    "ORIGINAL_DATA_TYPE": "numeric",
+    "SPARK_DATA_TYPE": "DoubleType()",
+    "PANDAS_DATA_TYPE": "float64"
+  },
+  {
+    "COLUMN_NAME": "Notes",
+    "ORIGINAL_DATA_TYPE": "character varying",
+    "SPARK_DATA_TYPE": "StringType()",
+    "PANDAS_DATA_TYPE": "object"
+  },
+  {
+    "COLUMN_NAME": "Temp",
+    "ORIGINAL_DATA_TYPE": "boolean",
+    "SPARK_DATA_TYPE": "BooleanType()",
+    "PANDAS_DATA_TYPE": "bool"
+  }
+]
+}

@@ -1,0 +1,280 @@
+{
+    "schema": [
+        {
+            "COLUMN_NAME": "OffsiteID",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "FacilityNumber",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "TRIFID",
+            "ORIGINAL_DATA_TYPE": "character varying",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "DropIncinerator",
+            "ORIGINAL_DATA_TYPE": "boolean",
+            "SPARK_DATA_TYPE": "BooleanType()",
+            "PANDAS_DATA_TYPE": "bool"
+        },
+        {
+            "COLUMN_NAME": "POTW_Incin",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "Name",
+            "ORIGINAL_DATA_TYPE": "character varying",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "Street",
+            "ORIGINAL_DATA_TYPE": "character varying",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "City",
+            "ORIGINAL_DATA_TYPE": "character varying",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "State",
+            "ORIGINAL_DATA_TYPE": "character varying",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "ZIPCode",
+            "ORIGINAL_DATA_TYPE": "character varying",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "ZIP9",
+            "ORIGINAL_DATA_TYPE": "character varying",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "Latitude",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "Longitude",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "GridCode",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "Country",
+            "ORIGINAL_DATA_TYPE": "character varying",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "X",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "Y",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "RadialDistance",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "StackHeight",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "StackVelocity",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "StackDiameter",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "StackParameterSource",
+            "ORIGINAL_DATA_TYPE": "character varying",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "FRSID",
+            "ORIGINAL_DATA_TYPE": "character varying",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "FRSYear",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "HEM3ID",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "DistanceToHEM3",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "WBANID",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "DistanceToWBAN",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "WaterReleases",
+            "ORIGINAL_DATA_TYPE": "boolean",
+            "SPARK_DATA_TYPE": "BooleanType()",
+            "PANDAS_DATA_TYPE": "bool"
+        },
+        {
+            "COLUMN_NAME": "OutfallLongitude",
+            "ORIGINAL_DATA_TYPE": "boolean",
+            "SPARK_DATA_TYPE": "BooleanType()",
+            "PANDAS_DATA_TYPE": "bool"
+        },
+        {
+            "COLUMN_NAME": "OutfallLatitude",
+            "ORIGINAL_DATA_TYPE": "boolean",
+            "SPARK_DATA_TYPE": "BooleanType()",
+            "PANDAS_DATA_TYPE": "bool"
+        },
+        {
+            "COLUMN_NAME": "NearReach",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "NearComID",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "DistanceToReach",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "AssignedReach",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "AssignedComID",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "ReachSource",
+            "ORIGINAL_DATA_TYPE": "character varying",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "ReachNotes",
+            "ORIGINAL_DATA_TYPE": "character varying",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "LatLongSource",
+            "ORIGINAL_DATA_TYPE": "character varying",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "LatLongYear",
+            "ORIGINAL_DATA_TYPE": "numeric",
+            "SPARK_DATA_TYPE": "DoubleType()",
+            "PANDAS_DATA_TYPE": "float64"
+        },
+        {
+            "COLUMN_NAME": "LockLL",
+            "ORIGINAL_DATA_TYPE": "boolean",
+            "SPARK_DATA_TYPE": "BooleanType()",
+            "PANDAS_DATA_TYPE": "bool"
+        },
+        {
+            "COLUMN_NAME": "CentroidAdjustment",
+            "ORIGINAL_DATA_TYPE": "character varying",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "NotesOnCoordinates",
+            "ORIGINAL_DATA_TYPE": "character varying",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "AdditionalSourcesForLocation",
+            "ORIGINAL_DATA_TYPE": "character varying",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "LocationConfidence",
+            "ORIGINAL_DATA_TYPE": "character varying",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "object"
+        },
+        {
+            "COLUMN_NAME": "Foreign",
+            "ORIGINAL_DATA_TYPE": "boolean",
+            "SPARK_DATA_TYPE": "BooleanType()",
+            "PANDAS_DATA_TYPE": "bool"
+        }
+    ]
+}

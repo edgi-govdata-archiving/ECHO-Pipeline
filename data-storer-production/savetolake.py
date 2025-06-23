@@ -1,5 +1,5 @@
 import pyspark
-from pyspark.sql.types import StructType, StructField, IntegerType, StringType, FloatType, LongType, DoubleType
+from pyspark.sql.types import StructType, StructField, IntegerType, StringType, FloatType, LongType, DoubleType, BooleanType
 from pyspark.sql.functions import col, to_date, trim
 from delta import *
 import json
@@ -8,20 +8,21 @@ import logging
 from datetime import datetime
 from dotenv import load_dotenv
 
-import mview_functions
-import EXP_PGM
-
 
 # Load .env file
-load_dotenv()
+load_dotenv('/home/yemoeaung1/echo-pipeline/.env')
+print(os.getenv("STORAGE_HOST_PATH"))
 
-STORAGE_PATH = os.getenv("STORAGE_PATH")
-JSON_PATH = os.getenv("JSON_FILES_PATH")
+STORAGE_PATH = os.getenv("STORAGE_HOST_PATH")
+JSON_PATH = os.getenv("JSON_DIR_HOST_PATH")
 DELTA_LAKE_PATH = os.path.join(STORAGE_PATH, 'data-lake')
 EXTRACTED_DATA_PATH = os.path.join(STORAGE_PATH, 'updated-datasets')
 SCHEMAS_PATH = os.path.join(JSON_PATH, 'schemas')
 MATERIALIZED_VIEW_JSON = os.path.join(JSON_PATH, 'spark_materialized_views.json')
 CSV_SCHEMA_MAP_JSON = os.path.join(JSON_PATH, 'schema_csv_mapping.json')
+
+import mview_functions
+import EXP_PGM
 
 # Configure logging
 log_dir = 'logs'
@@ -57,6 +58,10 @@ def get_schema(file_path):
         "DoubleType()": DoubleType(),
         "StringType()": StringType(),  
         "FloatType()": FloatType(),
+        "ShortType()": IntegerType(),
+        "BooleanType()": BooleanType(),
+        "DateType()": StringType(),  # Dates will be stored as strings
+        "TimestampType()": StringType()  # Timestamps will be stored as strings
     }
 
     schema_file_path = find_mapping(f"{file_path}.csv", csv_schema_map=CSV_SCHEMA_MAP_JSON)
@@ -101,6 +106,7 @@ def ingest_file(file):
 
     if not new_schema:
         logger.warning(f"Did not find schema for {file} as it's not specified in the csv to schema mapping file. Skipping...")
+        os.remove(os.path.join(EXTRACTED_DATA_PATH, file))
         return False
     
     try:
@@ -152,7 +158,6 @@ def ingest_file(file):
 # Initialize spark
 # the master URL should be the environment variable (e.g., spark://app1.7077)
 builder = pyspark.sql.SparkSession.builder.appName("CSV to Delta Lake") \
-    .master("spark://app1:7077") \
     .config("spark.jars.packages", "io.delta:delta-spark_2.12:3.1.0") \
     .config("spark.sql.extensions", "io.delta.sql.DeltaSparkSessionExtension") \
     .config("spark.sql.catalog.spark_catalog", "org.apache.spark.sql.delta.catalog.DeltaCatalog")
@@ -174,7 +179,7 @@ def main():
     logger.info(f"Processing completed. {ingested_files} files stored successfully.")
     if missed_files:
         logger.warning(f"{len(missed_files)} files failed: {missed_files}")
-            
+        
     # Make EXP_PGM lookup table
     logger.info("Making EXP PGM table...")
     EXP_PGM.build_exp_pgm(spark)

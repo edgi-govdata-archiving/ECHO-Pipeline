@@ -1,0 +1,28 @@
+{
+    "schema": [
+         {
+            "COLUMN_NAME": "ScoreCategory",
+            "ORIGINAL_DATA_TYPE": "num",
+            "SPARK_DATA_TYPE": "IntegerType()",
+            "PANDAS_DATA_TYPE": "int32"
+        },
+        {
+            "COLUMN_NAME": "Category",
+            "ORIGINAL_DATA_TYPE": "char",
+            "SPARK_DATA_TYPE": "StringType()",
+            "PANDAS_DATA_TYPE": "str"
+        },
+        {
+            "COLUMN_NAME": "Model",
+            "ORIGINAL_DATA_TYPE": "num",
+            "SPARK_DATA_TYPE": "IntegerType()",
+            "PANDAS_DATA_TYPE": "int32"
+        },
+        {
+            "COLUMN_NAME": "InhaleTox",
+            "ORIGINAL_DATA_TYPE": "num",
+            "SPARK_DATA_TYPE": "IntegerType()",
+            "PANDAS_DATA_TYPE": "int32"
+        }
+    ]
+}
