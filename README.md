@@ -45,7 +45,10 @@ This directory contains the schema files and additional configuration files used
     docker compose -f dev-compose.yaml build
     ```
     **NOTE**: If you use Docker Desktop, increase the limits of several resource allocations. We tested the containers with 8 CPU, 12 GB Memory limit, and 4 GB Swap size. This will prevent the Out of Memory errors. 
-    
+
+    **NOTE**: You can use the command 'java -XshowSettings:vm' to see your Java heap size, if you get errors saying you are out of heap memory.
+    Increase your heap memory by putting this environment variable in your .bashrc file: export _JAVA_OPTIONS=-Xmx8192m. This will set your memory to 8 GB.
+
 4. Start the containers:
     ```bash
     docker compose -f dev-compose.yaml up
@@ -55,6 +58,11 @@ This will start the containers defined in **dev-compose.yaml** which are scraper
 Notes
 - Ensure that the paths defined in your .env file is accessible and correctly mounted within the containers.
 - For detailed usage and individual directory instructions, refer to the individual `README.md` files in each directory.
+- Notebooks and programs that use the data will need to set these environment variables:
+    DELTA_TABLES_MOUNT_PATH={path}/epa-data/data-lake/files
+    SCHEMA_HOST_PATH={path}/epa-data/data-lake/schemas
+    (This can be done with the os Python package, by os.environ['DELTA_TABLES_MOUNT_PATH'] = {path}/epa-data/data-lake/files.
+    https://askubuntu.com/questions/542585/how-to-increase-java-heap-size)
 
 ## Code of Conduct
 This repository falls under EDGI’s Code of Conduct <https://github.com/edgi-govdata-archiving/overview/blob/main/CONDUCT.md>. Please take a moment to review it before commenting on or creating issues and pull requests.
