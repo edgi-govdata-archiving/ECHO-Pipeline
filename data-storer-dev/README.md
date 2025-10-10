@@ -28,7 +28,7 @@ You can automate running this container at a scheduled time using a cron job.
 
 2. Add a line to schedule the job. For example, to run the container every Monday at 8am, add the following line.
     ```bash
-    0 8 * * 1 docker compose restart storer
+    0 8 * * 1 docker compose -f dev-compose.yaml restart storer
     ```
 
 ## Adding a New File
