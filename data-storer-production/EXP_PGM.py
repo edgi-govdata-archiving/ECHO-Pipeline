@@ -69,7 +69,7 @@ def process_pgm(spark, pgm):
     logger.info(f"Inserted records into {target_table}")
 
 def build_exp_pgm(spark):
-    target_table = os.path.join(DELTA_LAKE_PATH, "EXP_PGM")
+        target_table = os.path.join(DELTA_LAKE_PATH, "files", "EXP_PGM")
     
     # Truncate table (overwrite)
     logger.info("Truncating EXP_PGM table...")
